@@ -13,7 +13,7 @@ engine_ball = create_engine("mysql+pymysql://root:1122@10.93.53.244:3306/db_ball
 
 # df_std = pd.read_csv('projects/ball/dataset/process_dataset.csv')
 # df_data = pd.read_csv('projects/ball/dataset/ball.csv')
-df_std = pd.read_csv('./dataset/process_dataset.csv')  # 运行时写法，python console模式下会提示找不到路径
+df_std = pd.read_csv('./dataset/process_dataset.csv')  # 运行时写法，python console模式下会提示找不到路径r
 df_data = pd.read_csv('./dataset/ball.csv')
 
 
